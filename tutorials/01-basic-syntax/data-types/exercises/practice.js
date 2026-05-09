@@ -26,13 +26,13 @@ let answerSeven = false;
 // to code. This is the way!
 
 console.log(`
-${answerOne}
-${answerTwo}
-${answerThree}
-${answerFour}
-${answerFive}
-${answerSix}
-${answerSeven}
+answerOne: ${typeof answerOne}
+answerTwo: ${typeof answerTwo}
+answerThree: ${typeof answerThree}
+answerFour: ${typeof answerFour}
+answerFive: ${typeof answerFive}
+answerSix: ${typeof answerSix}
+answerSeven: ${typeof answerSeven}
 `)
 
 // TODO: Before you go... don't forget to make a git commit!
