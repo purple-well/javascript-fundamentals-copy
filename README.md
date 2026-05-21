@@ -19,6 +19,45 @@ I am currently creating a **completely new** volume of demos and practice exerci
 
 ---
 
+### HOW TO FORK AND CLONE
+
+#### CREATE YOUR OWN COPY
+1. FORK it to your own GitHub account
+1. COPY the link from your new repo on GitHub
+1. CLONE it to your local machine. Example:
+
+```git clone https://github.com/YourUsername/javascript-fundamentals```
+
+#### PRACTICE IN YOUR OWN BRANCHES
+If you want to update your forked repository from my parent repository when I add or change things to mine in the future, there are instructions below this section.
+It will go much easier if you don't ever change the code in `main`. Instead, do the following:
+1. From `main`, use the command `git checkout -b new-branch-name` to create your own branch for practicing (example: `functions-practice`).
+1. Practice as much as you'd like in your new branch, making commits as you add code.
+1. When you are ready to work on something different in another new branch, use the command `git checkout main` to return to `main` and then you can repeat the two steps above.
+
+### HOW TO UPDATE YOUR REPO AFTER I'VE UPDATED MINE
+
+**Set the upstream link:**
+1. On your local machine, make sure you are in the correct directory in the terminal.
+1. Use the command `git remote add upstream https://github.com/CodeWithCarrie/javascript-fundamentals`
+
+You now have a direct link to my original repo! 
+
+Use the command `git remote -v` to verify that you have linked to both `origin` (your forked repo) and `upstream` (my original repo)
+
+**Update your repo anytime I make changes in the future:**
+1. On your local machine, make sure you are in the correct directory in the terminal.
+1. If you have any uncommitted changes, **stage** and **commit** them.
+1. Make sure you are in the branch you wish to update (e.g. `main`)
+1. Use the command `git fetch upstream` so your local repo has knowledge of changes I made in my repo
+1. Use the command `git rebase upstream/main` to sync your repo
+
+**Check to see which branches you already have:**
+1. You can use the command `git branch` anytime to see what local branches you have
+1. The command `git branch -r` will show you branches that exist on GitHub (after you've fetched that knowledge)
+
+---
+
 ## DEMOS & PRACTICE EXERCISES
 
 Each topic will have at least one set of starter code and solution code corresponding to a video on the [@CodeWithCarrie](https://youtube.com/@CodeWithCarrie) YouTube channel, and most topics will include hands-on practice exercises as well. Use the links in the tables below for quick peeks at the code. You can fork your own copy of this repository for practice on your local machine. While individual links are available below for each video, you can also start with the [full playlist](https://www.youtube.com/playlist?list=PLvcPeTeqi37QYL9fnn4Y1ZJdsyFTHJU7D).
@@ -95,7 +134,62 @@ This particular collection of coding exercises focuses solely on JavaScript (occ
 
 ---
 
-_...more coming soon!_
+### 5 - Arrays
+
+| Topics                                                | Code                                                                                 | Videos                               | Length |
+| ----------------------------------------------------- | ------------------------------------------------------------------------------------ | ------------------------------------ | -----: |
+| Introduction to Arrays                                | [arrays-intro](/tutorials/05-arrays/arrays-intro/)                                   | [Demo](https://youtu.be/aJPwRCzTDrU) |   6:14 |
+| Creating Arrays of n Length                           | [creating-n-length](/tutorials/05-arrays/creating-n-length/)                         | [Demo](https://youtu.be/tV_Iuxt13Kw) |   4:52 |
+| Array Length, Indexing, and Bracket Notation          | [length-indexing-notation](/tutorials/05-arrays/length-indexing-notation/)           | [Demo](https://youtu.be/hxu2-AgMG0A) |   4:31 |
+| Common Array Methods: Adding & Removing Elements      | [array-methods-add-remove](/tutorials/05-arrays/array-methods-add-remove/)           | [Demo](https://youtu.be/shZWIO2dzhM) |   4:04 |
+| Common Array Methods: Querying & Accessing Elements   | [array-methods-query-access](/tutorials/05-arrays/array-methods-query-access/)       | [Demo](https://youtu.be/jaqKTOUsPN8) |   3:51 |
+| Common Array Methods: Combining & Extracting Elements | [array-methods-combine-extract](/tutorials/05-arrays/array-methods-combine-extract/) | [Demo](https://youtu.be/8BNkYFGJva0) |   4:59 |
+| Common Array Methods: Sorting & Reversing Elements    | [array-methods-sort-reverse](/tutorials/05-arrays/array-methods-sort-reverse/)       | [Demo](https://youtu.be/eDarMuePJEU) |   2:56 |
+| Converting Between Strings & Arrays                   | [array-string-conversion](/tutorials/05-arrays/array-string-conversion/)             | [Demo](https://youtu.be/s2x0N54wO0I) |   5:46 |
+| Multi-Dimensional Arrays                              | [multi-dimensional-arrays](/tutorials/05-arrays/multi-dimensional-arrays/)           | [Demo](https://youtu.be/m3JBINRAMWE) |   6:01 |
+|                                                       |                                                                                      | **TOTAL**                            |  43:14 |
+
+---
+
+### 6 - Loops
+
+_Coming soon!_
+
+---
+
+### 7 - Function Basics
+
+| Topics                                 | Code                                                                       | Videos                               | Length |
+| :------------------------------------- | :------------------------------------------------------------------------- | :----------------------------------- | -----: |
+| Introduction to Functions              | [functions-intro](/tutorials/07-functions/functions-intro/)                | [Demo](https://youtu.be/u7lPKTwcohc) |   6:08 |
+| Function Input & Output                | [input-output](/tutorials/07-functions/input-output/)                      | [Demo](https://youtu.be/jSErMvfcwqI) |  10:04 |
+| Variable Scope                         | [variable-scope](/tutorials/07-functions/variable-scope/)                  | [Demo](https://youtu.be/th_YkzQh6is) |   6:13 |
+| Procedural Recursion                   | [recursion-procedural](/tutorials/07-functions/recursion-procedural/)      | [Demo](https://youtu.be/i8wz8EKtuBo) |   9:50 |
+| Reductive Recursion                    | [recursion-reductive](/tutorials/07-functions/recursion-reductive/)        | [Demo](https://youtu.be/Nwtxb4WMeck) |   4:51 |
+| Helper Functions                       | [helper-functions](/tutorials/07-functions/helper-functions)               | _Coming soon!_                       |        |
+| Interactive Programming with Functions | [interactive-programming](/tutorials/07-functions/interactive-programming) | _Coming soon!_                       |        |
+|                                        |                                                                            | **TOTAL**                            |        |
+
+---
+
+### 8 - Objects
+
+| Topics                                  | Code                                                                                    | Videos                               | Length |
+| :-------------------------------------- | :-------------------------------------------------------------------------------------- | :----------------------------------- | -----: |
+| Introduction to Objects                 | [objects-intro](/tutorials/08-objects/objects-intro/)                                   | [Demo](https://youtu.be/3whafTBfg8U) |   5:42 |
+| Accessing & Modifying Object Properties | [accessing-modifying-properties](/tutorials/08-objects/accessing-modifying-properties/) | [Demo](https://youtu.be/Eu6IVzAOcdg) |   6:21 |
+| The Math Module & The Spread Operator   | [math-module](/tutorials/08-objects/math-module/)                                       | [Demo](https://youtu.be/Jf0QjQJRft0) |   7:24 |
+| Object Methods & Context                | _Coming soon!_                                                                          | _Coming soon!_                       |        |
+| Complex Objects & Mutation              | _Coming soon!_                                                                          | _Coming soon!_                       |        |
+| Looping Over Key/Value Pairs            | [looping-over-key-value-pairs](/tutorials/08-objects/looping-over-key-value-pairs/)     | _Coming soon!_                       |        |
+| Looping Over Arrays of Objects          | [looping-over-arrays-of-objects](/tutorials/08-objects/looping-over-arrays-of-objects/) | _Coming soon!_                       |        |
+|                                         |                                                                                         | **TOTAL**                            |        |
+
+---
+
+### 9 - Anonymous & Higher-Order Functions
+
+_Coming soon!_
 
 ---
 
