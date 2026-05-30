@@ -1,6 +1,6 @@
 /**** FUNCTION INPUT & OUTPUT ****/
 
-/** EXAMPLE 1 - PARAMETERS & ARGUMENTS **/ 
+/** EXAMPLE 1 - PARAMETERS & ARGUMENTS **/
 
 // DEMO: Define a function to greet a crew member'crewName' is the parameter (the variable placeholder)
 
@@ -40,7 +40,7 @@ function synthesizeWaterReactionMass(hydrogenTons, oxygenTons) {
 }
 
 
-// DEMO: Call the function and pass in 50t of hydrogen and 25t of oxygen 
+// DEMO: Call the function and pass in 50t of hydrogen and 25t of oxygen
 // Store the result in a new variable and then print a sentence using it
 let currentReactionMass = synthesizeWaterReactionMass(50, 25);
 console.log(`Drive reserves updated: ${currentReactionMass} metric tons of H20 loaded.`);

@@ -52,11 +52,11 @@ if (crewIsSleepy) {
 /** EXERCISE 4: SEQUENTIAL AUTOMATION **/
 
 function startEngines() {
-    console.log("Engines: ONLINE.");
+	console.log("Engines: ONLINE.");
 }
 
 function clearLaunchPad() {
-    console.log("Launch pad: CLEARED.");
+	console.log("Launch pad: CLEARED.");
 }
 
 /*
