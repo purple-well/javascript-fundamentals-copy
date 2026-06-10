@@ -171,6 +171,7 @@ This particular collection of coding exercises focuses solely on JavaScript (occ
 | Common Array Methods: Sorting & Reversing Elements    | [array-methods-sort-reverse](/tutorials/05-arrays/array-methods-sort-reverse/)       | [Demo](https://youtu.be/eDarMuePJEU) |      2:56 |
 | Converting Between Strings & Arrays                   | [array-string-conversion](/tutorials/05-arrays/array-string-conversion/)             | [Demo](https://youtu.be/s2x0N54wO0I) |      5:46 |
 | Multi-Dimensional Arrays                              | [multi-dimensional-arrays](/tutorials/05-arrays/multi-dimensional-arrays/)           | [Demo](https://youtu.be/m3JBINRAMWE) |      6:01 |
+| Destructuring Arrays                                  | [destructuring-arrays](/tutorials/05-arrays/destructuring-arrays/)                   | [Demo](https://youtu.be/F7out6idlMg) |      4:41 |
 |                                                       |                                                                                      | **TOTAL**                            | **43:14** |
 
 ---
@@ -215,6 +216,7 @@ This particular collection of coding exercises focuses solely on JavaScript (occ
 | Complex Objects & Mutation              | [complex-objects](/tutorials/08-objects/complex-objects/)                               | [Demo](https://youtu.be/21kqdyJF178) |   8:31 |
 | Looping Over Key/Value Pairs            | [looping-over-key-value-pairs](/tutorials/08-objects/looping-over-key-value-pairs/)     | _Coming soon!_                       |        |
 | Looping Over Arrays of Objects          | [looping-over-arrays-of-objects](/tutorials/08-objects/looping-over-arrays-of-objects/) | _Coming soon!_                       |        |
+| Destructuring Objects                   | [destructuring-objects](/tutorials/08-objects/destructuring-objects/)                   | [Demo](https://youtu.be/w0EwPH7A7Jk) |   4:42 |
 |                                         |                                                                                         | **TOTAL**                            |        |
 
 ---
@@ -236,4 +238,8 @@ This particular collection of coding exercises focuses solely on JavaScript (occ
 
 ## ABOUT THE AUTHOR
 
-Caroline Jones - [@Carolista](https://github.com/Carolista) - [CodeWithCarrie.com](http://codewithcarrie.com) - [LinkedIn](https://www.linkedin.com/in/carolinerjones)
+### Caroline "Carrie" Jones
+
+Front End Engineer and Lead Instructor at [LaunchCode](https://www.launchcode.org)
+
+[@Carolista](https://github.com/Carolista) - [CodeWithCarrie.com](http://codewithcarrie.com) - [LinkedIn](https://www.linkedin.com/in/carolinerjones)
