@@ -18,11 +18,36 @@ let gridShieldCharge = 100;
        gridShieldCharge.
 */
 
+try {
+
 gridShieldCharge.toUpperCase();
+
+} catch (error) {
+
+   console.error("Error:", error.message);
+   console.log("System bypassed a fatal crash.");
+   gridShieldCharge = 0;
+
+} finally {
+
+   console.log(gridShieldCharge);
+
+}
 
 /** EXERCISE 2: THE SECURE DEPLOYMENT ENGINE **/
 
 let dockingClampStatus = "LOCKED";
+
+try {
+   console.log("Attempting automated separation...");
+   console.log(synchronousDeploymentStatus);
+} catch (errorObj) {
+   console.log("Separation error caught! Keeping clamps locked.");
+   console.error(errorObj);
+} finally {
+   dockingClampStatus = "MANUAL_OVERRIDE";
+   console.log(dockingClampStatus);
+}
 
 /*
     TODO: Build a complete try/catch/finally sequence.
