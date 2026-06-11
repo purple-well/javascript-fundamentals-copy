@@ -4,13 +4,16 @@
 
 // Let's create a simulated environment switch
 let isBackupGeneratorOnline = false;
-
+try {
 console.log("Entering System Check...");
 
 // DEMO: Run the file to see what happens when we try to print an undefined variable.
 console.log(isCargoBayPressurized);
 
 console.log("This line will never run because the line above broke!");
+} catch (error) {
+    console.error(error);
+}
 
 // DEMO: Create a try block and move the three console.log statements inside it.
 // Run the file again. What happens now?
